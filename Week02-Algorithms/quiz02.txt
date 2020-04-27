@@ -1,0 +1,6 @@
+PROGRAM UserName  
+INPUT “What is your name?” 
+	IF UserName = "frank" OR UserName = "george"
+	PRINT “Hi”+ UserName + “!!” 
+END 
+ 

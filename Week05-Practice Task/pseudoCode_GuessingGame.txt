@@ -1,0 +1,38 @@
+'''
+This is an algorithm that will attempt to play a guessing game of  random numbers in between the range of 0 and 25 until
+the number is found or the user has guessed incorrectly 7 times.
+'''
+
+START
+import random
+
+#Variables
+
+randomNumber = random.randint(0, 25)
+guessCount = 0
+correctGuess = False
+totalCount = 7
+items = []
+
+WHILE	guessCount < 7 and correctguess = False
+    INPUT Var guess ( randomNumber )			
+    update Var guessCount
+    ADD randomnumber to array items
+	IF guess < randomNumber		
+	    PRINT (Too low)
+	    PRINT ( you have how many guesses left str TotalCount - guessCount + guesses left )
+	
+	ELIF guess > randomNumber		
+	    PRINT (Too high)
+	    PRINT ( you have how many guesses left str TotalCount - guessCount + guesses left )
+
+	ELSE 
+	    print("guess is correct")
+        	    correctGuess = True
+                    print(items)
+	
+	ENDIF
+	
+ENDWHILE
+
+END

@@ -1,0 +1,9 @@
+PROGRAM MathOutput  
+INPUT num1
+INPUT num2
+	PRINT num1 + num2 
+	PRINT num1 * num2
+	PRINT num1 / num2 
+	PRINT num1 - num2
+END 
+ 

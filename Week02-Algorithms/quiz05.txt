@@ -1,0 +1,10 @@
+PROGRAM keyboard_x
+INPUT NUM1
+SET SUM = 0
+WHILE NUM1 not equal to x
+	SUM = SUM + NUM1
+	INPUT NUM1
+ENDWHILE		
+PRINT SUM
+END 
+ 

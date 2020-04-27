@@ -1,0 +1,6 @@
+﻿PROGRAM UserName  
+INPUT “What is your name?” 
+GET name 
+PRINT “Hi”+ name + “!!” 
+END 
+ 

@@ -1,0 +1,9 @@
+﻿PROGRAM Access  
+INPUT username
+INPUT password
+	IF username = "bob" AND password = "password1234"
+		PRINT “Access Granted!”
+	ELSE 
+		PRINT "Access Denied!"
+END 
+ 
